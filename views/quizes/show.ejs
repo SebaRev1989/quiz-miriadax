@@ -1,0 +1,6 @@
+<form method="get" action="/quizes/<%= quiz.id %>/answer">
+	Pregunta: <%= quiz.pregunta %> <p>
+    <input type="text" name="respuesta" value="Responda aqu&iacute;"
+    	onfocus="if (this.value === 'Responda aquí') {this.value = '';}">
+    <input type="submit" value="Enviar">
+</form>
