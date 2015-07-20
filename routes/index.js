@@ -23,7 +23,7 @@ router.put('/quizes/:quizId(\\d+)', quizController.update);
 router.delete('/quizes/:quizId(\\d+)', quizController.destroy);
 
 router.get('/author', function(req, res) {
-	res.render('author');
+	res.render('author', { errors: [] });
 });
 
 module.exports = router;
