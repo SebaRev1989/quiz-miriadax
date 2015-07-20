@@ -3,5 +3,5 @@ Juego interactivo tipo "quiz" desarrollado como proyecto práctico durante el cu
 
 El mismo utiliza:
     El paquete npm "express-generator" versión 4.9.0.
-    El paquete npm "express-partials" version 0.3.0.
-
+    El paquete npm "express-partials" versión 0.3.0.
+	El paquete npm "method-override" versión 2.3.1
