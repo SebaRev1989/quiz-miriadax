@@ -1,0 +1,8 @@
+<label for="preg" class="rem">Pregunta:</label>
+<input type="text" id="preg" name="quiz[pregunta]" value="<%= quiz.pregunta%>"
+	onfocus="if (this.value === 'Pregunta') {this.value = '';}"/> <p>
+<label for="resp" class="rem">Respuesta:</label>
+<input type="text" id="resp" name="quiz[respuesta]" value="<%= quiz.respuesta%>"
+	onfocus="if (this.value === 'Respuesta') {this.value = '';}"/> <p>
+<a href="/quizes"><button type="button">Cancelar</button></a>
+<input type="submit" value="Grabar">
