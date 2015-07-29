@@ -4,5 +4,12 @@
 <label for="resp" class="rem">Respuesta:</label>
 <input type="text" id="resp" name="quiz[respuesta]" value="<%= quiz.respuesta%>"
 	onfocus="if (this.value === 'Respuesta') {this.value = '';}"/> <p>
+ <select name="quiz[tema]">
+  <option value="Ciencia">Ciencia</option>
+  <option value="Humanidades">Humanidades</option>
+  <option value="Ocio">Ocio</option>
+  <option value="Otro" selected>Otro</option>
+  <option value="Tecnologia">Tecnología</option>
+</select>
 <a href="/quizes"><button type="button">Cancelar</button></a>
 <input type="submit" value="Grabar">
